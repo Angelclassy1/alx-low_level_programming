@@ -8,6 +8,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -33,5 +34,6 @@ else
 printf("%d", i);
 }
 printf("\n");
+
 return (0);
 }
