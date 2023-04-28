@@ -1,13 +1,25 @@
+<<<<<<< HEAD
 #ifndef LIST_H
 #define LIST_H
+=======
+#ifndef LISTS_H
+#define LISTS_H
+>>>>>>> b8b891f8212646046193e7ec4d0e19b0c6b086cb
 
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
+<<<<<<< HEAD
  * @len: length of string
  * @next: points to next node
  *
  * Description: Singly linked lists node structure
+=======
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+>>>>>>> b8b891f8212646046193e7ec4d0e19b0c6b086cb
  * for Holberton project
  */
 typedef struct list_s

@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 0x12-singly_linked_lists
 * Tests: This Directory is for tests purposes.
 
 Header File ðŸ“
+=======
+0x12. C - Singly linked list
+* Tests: This Directory is for tests purposes.
+
+Header File í³
+>>>>>>> b8b891f8212646046193e7ec4d0e19b0c6b086cb
 * lists.h: Header file containing definitions and prototypes for all types and functions written for the project.
 Type/File	Definition/Prototype
 * struct list_s		â€¢	char *str
@@ -14,7 +21,11 @@ typedef list_t	struct list_s
 3-add_node_end.c	list_t *add_node_end(list_t **head, const char *str);
 4-free_list.c	void free_list(list_t *head)
 
+<<<<<<< HEAD
 Tasks ðŸ“ƒ
+=======
+Tasks í³ƒ
+>>>>>>> b8b891f8212646046193e7ec4d0e19b0c6b086cb
 * 0. Print list
     * 0-print_list.c: C function that prints all the elements of a list_t list.
         * If str is NULL, the function prints [0] (nil).
